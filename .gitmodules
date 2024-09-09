@@ -1,0 +1,3 @@
+[submodule "team-name-application"]
+	path = team-name-application
+	url = git@github.com:luigi617/team-name-application.git
