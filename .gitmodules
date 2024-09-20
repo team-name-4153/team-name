@@ -1,9 +1,9 @@
-[submodule "team-name-application"]
-	path = team-name-application
-	url = git@github.com:luigi617/team-name-application.git
-[submodule "team-name-database"]
-	path = team-name-database
-	url = git@github.com:luigi617/team-name-database.git
-[submodule "team-name-UI"]
-	path = team-name-UI
-	url = git@github.com:luigi617/team-name-UI.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:team-name-4153/frontend.git
+[submodule "backend"]
+	path = backend
+	url = git@github.com:team-name-4153/backend.git
+[submodule "database"]
+	path = database
+	url = git@github.com:team-name-4153/database.git
