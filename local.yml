@@ -1,0 +1,25 @@
+version: "2"
+services:
+  backend:
+    build: ./backend
+    depends_on:
+      - database
+    ports:
+      - "5001:5001"
+    env_file:
+      - ./backend/.envs/.flask
+    
+  database:
+    image: mysql:8.0.39
+    ports:
+      - "3200:3306"
+    env_file:
+      - ./backend/.envs/.mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+  
