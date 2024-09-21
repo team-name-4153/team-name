@@ -15,11 +15,6 @@ services:
       - "3200:3306"
     env_file:
       - ./database/.envs/.mysql
-    # environment:
-    #   - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-    #   - MYSQL_DATABASE=${MYSQL_DATABASE}
-    #   - MYSQL_USER=${MYSQL_USER}
-    #   - MYSQL_PASSWORD=${MYSQL_PASSWORD}
     volumes:
       - ./database/mysql_data:/var/lib/mysql
   
