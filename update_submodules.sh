@@ -3,6 +3,9 @@
 # Exit script on any error
 set -e
 
+echo "Fetching latest changes for all submodules..."
+git submodule foreach 'git fetch'
+
 # Fetch and update all submodules to their latest version on their default branch
 echo "Updating all submodules to their latest version..."
 git submodule update --remote --merge
