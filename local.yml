@@ -14,12 +14,12 @@ services:
     ports:
       - "3200:3306"
     env_file:
-      - ./backend/.envs/.mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      - ./database/.envs/.mysql
+    # environment:
+    #   - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+    #   - MYSQL_DATABASE=${MYSQL_DATABASE}
+    #   - MYSQL_USER=${MYSQL_USER}
+    #   - MYSQL_PASSWORD=${MYSQL_PASSWORD}
     volumes:
-      - ./mysql_data:/var/lib/mysql
+      - ./database/mysql_data:/var/lib/mysql
   
