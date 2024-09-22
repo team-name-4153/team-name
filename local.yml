@@ -19,4 +19,4 @@ services:
       - ./database/.envs/.mysql
     volumes:
       - ./database/mysql_data:/var/lib/mysql
-  
+
