@@ -4,9 +4,6 @@
 [submodule "backend"]
 	path = backend
 	url = git@github.com:team-name-4153/backend.git
-[submodule "database"]
-	path = database
-	url = git@github.com:team-name-4153/database.git
 [submodule "Comment_Service"]
 	path = Comment_Service
 	url = git@github.com:team-name-4153/Comment_Service.git
