@@ -16,7 +16,8 @@ services:
     ports:
       - "3200:3306"
     env_file:
-      - ./database/.envs/.mysql
+      - ./backend/.envs/.mysql
     volumes:
-      - ./database/mysql_data:/var/lib/mysql
-
+      - mysql_data:/var/lib/mysql
+volumes:
+  mysql_data:
