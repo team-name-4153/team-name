@@ -7,3 +7,6 @@
 [submodule "Comment_Service"]
 	path = Comment_Service
 	url = git@github.com:team-name-4153/Comment_Service.git
+[submodule "Streaming_Service"]
+	path = Streaming_Service
+	url = git@github.com:team-name-4153/Streaming_Service.git
