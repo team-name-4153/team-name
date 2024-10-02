@@ -10,3 +10,6 @@
 [submodule "Streaming_Service"]
 	path = Streaming_Service
 	url = git@github.com:team-name-4153/Streaming_Service.git
+[submodule "Recommendation_Service"]
+	path = Recommendation_Service
+	url = git@github.com:team-name-4153/Recommendation_Service.git
