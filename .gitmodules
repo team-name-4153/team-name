@@ -13,3 +13,6 @@
 [submodule "Recommendation_Service"]
 	path = Recommendation_Service
 	url = git@github.com:team-name-4153/Recommendation_Service.git
+[submodule "Authentication_Service"]
+	path = Authentication_Service
+	url = https://github.com/team-name-4153/Authentication_Service.git
