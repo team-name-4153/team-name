@@ -1,6 +1,3 @@
-[submodule "frontend"]
-	path = frontend
-	url = git@github.com:team-name-4153/frontend.git
 [submodule "backend"]
 	path = backend
 	url = git@github.com:team-name-4153/backend.git
@@ -16,3 +13,6 @@
 [submodule "Authentication_Service"]
 	path = Authentication_Service
 	url = https://github.com/team-name-4153/Authentication_Service.git
+[submodule "Comment_Service_Socket"]
+	path = Comment_Service_Socket
+	url = git@github.com:team-name-4153/Comment_Service_Socket.git
