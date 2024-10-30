@@ -19,3 +19,6 @@
 [submodule "Steam_API_Management"]
 	path = Steam_API_Management
 	url = git@github.com:team-name-4153/Steam_API_Management.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/team-name-4153/frontend.git
