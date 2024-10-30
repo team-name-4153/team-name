@@ -16,3 +16,9 @@
 [submodule "Comment_Service_Socket"]
 	path = Comment_Service_Socket
 	url = git@github.com:team-name-4153/Comment_Service_Socket.git
+[submodule "Steam_API_Management"]
+	path = Steam_API_Management
+	url = git@github.com:team-name-4153/Steam_API_Management.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/team-name-4153/frontend.git
